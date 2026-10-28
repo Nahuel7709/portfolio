@@ -468,9 +468,13 @@ a:hover {
 
 .project__shot {
   flex: 1 1 380px;
-  aspect-ratio: 16 / 10;
+  aspect-ratio: 2 / 1;
   border-radius: 14px;
   object-fit: cover;
+  object-position: top center;
+  align-self: center;
+  height: auto;
+  border: 1px solid var(--border);
   min-width: 0;
 }
 

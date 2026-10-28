@@ -85,6 +85,7 @@ export const content = {
         tag: 'Full-stack app · 2026',
         desc: 'Built through code-reviewed tickets with a senior engineer as mentor. Bookings run inside a transaction that locks the car row, so a car is never double-booked, even with simultaneous requests. JWT auth, role-based access, per-route rate limiting, integration tests and CI.',
         tech: ['React', 'TypeScript', 'Express', 'PostgreSQL', 'Prisma', 'Docker', 'Vitest', 'Vercel'],
+        image: '/projects/car-rental.webp',
         links: [{ label: 'Live demo', href: projectLinks.carDemo }, { label: 'Repo', href: projectLinks.carRepo }],
       },
       {
@@ -92,6 +93,7 @@ export const content = {
         tag: 'Booking platform · 2026',
         desc: 'Accommodation booking platform built as the final project for Digital House: date-range search, availability validation, reviews gated to completed stays and a full admin panel.',
         tech: ['Java', 'Spring Boot', 'MySQL', 'React', 'Docker', 'Swagger'],
+        image: '/projects/stayhub.webp',
         links: [{ label: 'Repo', href: projectLinks.stayhub }],
       },
     ] as Project[],
@@ -179,6 +181,7 @@ export const content = {
         tag: 'App full-stack · 2026',
         desc: 'Construida por tickets con code review de un ingeniero senior como mentor. Las reservas corren dentro de una transacción que bloquea la fila del auto, así nunca se reserva dos veces, aunque lleguen pedidos simultáneos. Auth con JWT, roles, rate limiting por ruta, tests de integración y CI.',
         tech: ['React', 'TypeScript', 'Express', 'PostgreSQL', 'Prisma', 'Docker', 'Vitest', 'Vercel'],
+        image: '/projects/car-rental.webp',
         links: [{ label: 'Demo', href: projectLinks.carDemo }, { label: 'Repo', href: projectLinks.carRepo }],
       },
       {
@@ -186,6 +189,7 @@ export const content = {
         tag: 'Plataforma de reservas · 2026',
         desc: 'Plataforma de reserva de alojamientos, proyecto final de Digital House: búsqueda por rango de fechas, validación de disponibilidad, reseñas solo para estadías completadas y panel de administración.',
         tech: ['Java', 'Spring Boot', 'MySQL', 'React', 'Docker', 'Swagger'],
+        image: '/projects/stayhub.webp',
         links: [{ label: 'Repo', href: projectLinks.stayhub }],
       },
     ] as Project[],
